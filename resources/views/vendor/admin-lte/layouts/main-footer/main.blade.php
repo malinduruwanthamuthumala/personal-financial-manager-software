@@ -4,5 +4,5 @@
     {{ config('app.name', 'AdminLTE') }}
   </div>
   <!-- Default to the left -->
-  <strong>Copyright &copy; {{ date('Y') }}.</strong>  All rights reserved.
+  
 </footer>

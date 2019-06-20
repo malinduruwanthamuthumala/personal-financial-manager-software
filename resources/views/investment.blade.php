@@ -4,7 +4,7 @@
 @section('content-subtitle', 'Dashboard')
 
 @section('content')
-{{-- <div class="row">
+<div class="row">
   <div class="col-md-8 col-md-offset-2">
     <div class="box box-primary">
       <div class="box-header">
@@ -23,7 +23,7 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ut, quia ipsa adipisci fugiat necessitatibus dolorem, aperiam provident quas illum deleniti voluptates repellendus architecto vel? Porro necessitatibus facilis maiores accusamus?
     </div>
   </div>
-</div> --}}
+</div>
 <div class="container" style="background-color:white">
 </div>
 @endsection

@@ -10,6 +10,13 @@
   'breadcrumbs' => [
     (object) [ 'title' => 'Home', 'url' => route('home') ]
   ]
+
+
+
+
+
+
+  
 ])
 @endsection
 
@@ -23,11 +30,23 @@
     </a>
     <a href="{{ route('home') }}">
       <i class="fa fa-home"></i>
-      <span>Home</span>
+      <span>Add products</span>
     </a>
     <a href="{{ route('home') }}">
       <i class="fa fa-home"></i>
-      <span>Home</span>
+      <span>purchase History</span>
+    </a>
+    <a href="{{ route('home') }}">
+      <i class="fa fa-home"></i>
+      <span>invoice</span>
+    </a>
+    <a href="{{ route('home') }}">
+      <i class="fa fa-home"></i>
+      <span>reports</span>
+    </a>
+    <a href="/investment">
+      <i class="fa fa-home"></i>
+      <span>Investments</span>
     </a>
   </li>
 </ul>

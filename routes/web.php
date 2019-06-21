@@ -19,3 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/investment','InvestmentController@index');
+Route::get('/create','InvestmentController@create');
+Route::get('/addproduct','productController@index');
+Route::get('/getproduct','productController@getproducts');
+Route::get('/submitproduct','productController@submitproduct');
+Route::get('/deleteproduct','productController@deleteproduct');

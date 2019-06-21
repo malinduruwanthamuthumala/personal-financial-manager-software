@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class financeInstitute extends Model
+class FinanceInstitute extends Model
 {
     //
 }
